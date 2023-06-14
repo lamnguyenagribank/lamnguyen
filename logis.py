@@ -47,7 +47,7 @@ choice = st.sidebar.selectbox('Danh mục tính năng', menu)
 if choice == 'Mục tiêu của mô hình':    
     st.subheader("Mục tiêu của mô hình")
     st.write("""
-    ###### Mô hình được xây dựng để dự báo khả năng tiếp cận vốn tín dụng của nông hộ dựa trên các biến đặc điểm chủ hộ, điều kiện của nông hộ.
+    ###### Mô hình được xây dựng để dự báo khả năng uống bia của anh Trần Công Tố .
     """)  
     st.write("""###### Mô hình sử dụng thuật toán LogisticRegression""")
     st.image("ham_spam.jpg")
