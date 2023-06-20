@@ -12,7 +12,7 @@ menu=["test1","test 2","test 3","test 4"]
 choice = st.sidebar.selectbox('Danh mục tính năng', menu)
 import datetime
 
-print("Mời bạn vui lòng nhập ngày tháng năm sinh để tính tuổi")
+st.write("Mời bạn vui lòng nhập ngày tháng năm sinh để tính tuổi")
 birth_day = int(input("Ngày sinh:"))
 birth_month = int(input("Tháng sinh:"))
 birth_year = int(input("Năm sinh:"))
@@ -25,4 +25,4 @@ age_year = current_year - birth_year
 age_month = abs(current_month-birth_month)
 age_day = abs(current_day-birth_day)
 
-print("### Tuổi của bạn chính xác là:### \n", age_year, " tuổi ", age_month, " tháng và ", age_day, " ngày")
+st.write("### Tuổi của bạn chính xác là:### \n", age_year, " tuổi ", age_month, " tháng và ", age_day, " ngày")
