@@ -5,4 +5,4 @@ for i in range(2000, 3201): #Duyệt qua tất cả các số trong đoạn từ
         j.append(str(i)) #Nếu đúng, thì thêm số i vào danh sách result
 print (','.join(j)) #In ra màn hình danh sách result, các phần tử cách nhau bằng dấu phẩy
 print('test python')
- st.write("""###### Mô hình sử dụng thuật toán LogisticRegression""")
+ st.write('tetst Python')
