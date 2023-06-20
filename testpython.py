@@ -6,3 +6,5 @@ for i in range(2000, 3201): #Duyệt qua tất cả các số trong đoạn từ
 print (','.join(j)) #In ra màn hình danh sách result, các phần tử cách nhau bằng dấu phẩy
 print('test python')
 st.write('tetst Python')
+print('khong test duoc')
+st.write('test bang Write')
