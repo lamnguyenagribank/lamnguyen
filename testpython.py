@@ -8,3 +8,4 @@ print('test python')
 st.write('tetst Python')
 print('khong test duoc')
 st.write('test bang Write')
+menu=['test1',test 2','test3','test 4']
