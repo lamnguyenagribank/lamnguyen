@@ -7,7 +7,7 @@ LONG_BREAK_MIN = 20
 reps = 0
 timer = None
 def reset_timer():
-   start_button["state"] = "normal"
+    start_button["state"] = "normal"
     root.after_cancel(timer)
     canvas.itemconfig(timer_text, text="00:00")
     title_label.config(text="Timer", fg=#A020F0')
